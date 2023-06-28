@@ -1,0 +1,86 @@
+
+
+
+body{
+    background-image: url(../wee.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+main{
+    margin: 50px;
+    padding: 20px 30px;
+
+}
+
+header  {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 5px;
+    background-image: url(../nav.jpg);
+    margin: 15px;
+    padding: 15px 30px;
+    margin-bottom: 60px;
+}
+@media screen and (max-width:600px) {
+    header{
+      
+      margin-bottom: 20px;
+      font-size: 10px;
+      margin: 10px;
+      padding: 10px 15px;
+      margin-bottom: 15px;
+      bottom: 10%;
+      left: 12%;
+      
+    }
+    }
+
+
+h1{
+    color: pink
+}
+
+section{
+    background-color: bisque ;
+    background-size: cover;
+    font-size: larger;
+    line-height: 2em;
+    box-shadow: 10px 10px 5px lightskyblue;
+}
+
+ h2 {
+    background-color: pink;
+    text-align: center;
+    font-size: 16px 'sans-serif';
+    margin: 20px;
+    padding: 15px 15px;
+    
+}
+
+
+
+
+footer{
+    text-align: center;
+    margin:50px;
+    padding: 25px 25px;
+    font-size: 2em;
+}
+
+@media screen and (max-width:600px) {
+    footer{
+      display: flex;
+      margin-left: 10px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+    }
+
+li{
+    color: black;
+    font-size: larger;
+
+}
